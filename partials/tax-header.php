@@ -1,0 +1,2 @@
+<?php $taxonomy = get_taxonomy(get_query_var("taxonomy")) ?>
+<h1 style="background: <?php echo $args["header-background"] ?>"><?php echo $taxonomy->labels->singular_name ?>: <?php echo get_queried_object()->name ?></h1>
